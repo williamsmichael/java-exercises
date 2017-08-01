@@ -3,6 +3,7 @@ package exercises;
 import java.util.Scanner;
 
 public class AreaRectangle {
+
     public static void main(String[] args) {
 
         Scanner user_input = new Scanner(System.in);
@@ -20,7 +21,6 @@ public class AreaRectangle {
         Integer area;
         area = length * width;
 
-        String answer;
         System.out.println("The area is " + Integer.toString(area));
 
 

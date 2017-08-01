@@ -17,15 +17,8 @@ public class SearchInsensitivity {
         System.out.print("Enter a word to search: ");
         search = user_input.next();
 
-        if(sentence.toLowerCase().contains(search.toLowerCase())) {
+        System.out.println(sentence.toLowerCase().contains(search.toLowerCase()));
 
-            System.out.println(true);
-
-        } else {
-
-            System.out.println(false);
-
-        }
 
     }
 }

@@ -12,11 +12,11 @@ public class MilesPerGallon {
 
         Integer miles;
         System.out.print("Enter miles driven: ");
-        miles = Integer.parseInt(user_input.next());
+        miles = user_input.nextInt();
 
         Integer gallons;
-        System.out.print("Enter amount of gas consumed (gallons): ");
-        gallons = Integer.parseInt(user_input.next());
+        System.out.print("Enter the gallons of gas consumed: ");
+        gallons = user_input.nextInt();
 
         Integer milesPerGallon;
         milesPerGallon = miles / gallons;
